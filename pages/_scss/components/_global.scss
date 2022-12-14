@@ -1,0 +1,34 @@
+.home #main-content {
+  @include at-media("tablet") {
+    background-image: url("../../img/ring.png");
+    background-position: calc(50% + 420px) 50%;
+    background-repeat: no-repeat;
+    background-size: 486px;
+  }
+}
+
+.home #featured-resources {
+  background-color : rgb(240, 240, 240);
+
+  .grid-container .featured-block {
+    border-bottom : 0;
+  }
+
+  .grid-row .grid-row {
+    padding-bottom : 0;
+  }
+}
+
+.separator {
+  display: flex;
+
+  &:before {
+    content: "";
+    @include u-border-left("1px");
+    @include u-border-left("white");
+    @include u-height(6);
+    @include u-margin-left("205");
+    @include u-padding-left("205");
+    @include u-width(0);
+  }
+}

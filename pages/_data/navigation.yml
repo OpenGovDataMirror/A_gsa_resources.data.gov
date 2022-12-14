@@ -1,0 +1,24 @@
+- text: Resources
+  children:
+    - text: Data management & governance
+      url: /categories/data-management-governance
+    - text: Data tools
+      url: /categories/data-tools
+    - text: Data incubator
+      url: /categories/data-incubator
+    - text: Skills development
+      url: /categories/skills-development
+    - text: Guidance
+      url: /categories/guidance
+    - text: Case studies & examples
+      url: /categories/case-studies-examples
+- text: Data Standards
+  url: /standards
+- text: Communities
+  url: /categories/communities
+- text: About
+  children:
+    - text: About this repository
+      url: /about/about-this-repository/
+    - text: Governance
+      url: /about/governance/
